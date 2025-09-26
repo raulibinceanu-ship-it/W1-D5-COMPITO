@@ -1,0 +1,67 @@
+/* FONT & GENERALI */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.65;
+  color: #393d41;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #25a2c3;
+  line-height: 1.5;
+  margin: 1em 0 0.5em;
+  text-align: center;
+}
+
+p {
+  margin: 0.5em 0 1.2em;
+  text-align: center;
+}
+
+/* HEADER */
+header {
+  background: black;
+  text-align: center;
+  padding: 1rem;
+}
+
+.logo {
+  max-width: 120px;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 4rem 1.5rem;
+  background-image: url(../banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #393d41;
+}
+
+.hero h1 {
+  font-size: 1.8rem;
+}
+
+.hero p {
+  margin-bottom: 1.5rem;
+}
+
+.hero .btn {
+  display: inline-block;
+  background: #f04c2f;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
